@@ -1,0 +1,82 @@
+{
+    "storesArr": [
+        {
+            "key":1,
+            "id": 1,
+            "name": "Computers",
+            "city": "Tel Aviv",
+            "products": [
+                {
+                    "key":1,
+                    "id": 1,
+                    "name": "PC",
+                    "price":150
+                },
+                {
+                    "key":2,
+                    "id": 2,
+                    "name": "Laptop",
+                    "price":250
+                },
+                {
+                    "key":3,
+                    "id": 3,
+                    "name": "Keyboard",
+                    "price":350
+                }
+            ]
+        },
+        {
+            "key":2,
+            "id": 2,
+            "name": "Food",
+            "city": "Netanya",
+            "products": [
+                {
+                    "key":1,
+                    "id": 1,
+                    "name": "Sandwich",
+                    "price":150
+                },
+                {
+                    "key":2,
+                    "id": 2,
+                    "name": "Pizza",
+                    "price":250
+                },
+                {
+                    "key":3,
+                    "id": 3,
+                    "name": "Fries",
+                    "price":350
+                }
+            ]
+        },
+        {
+            "key":3,
+            "id": 3,
+            "name": "Items",
+            "city": "Haifa",
+            "products": [
+                {
+                    "key":1,
+                    "id": 1,
+                    "name": "Item1",
+                    "price":150
+                },
+                {
+                    "key":2,
+                    "id": 2,
+                    "name": "Item2",
+                    "price":250
+                },
+                {
+                    "key":3,
+                    "id": 3,
+                    "name": "Item3"
+                    ,"price":350
+                }
+            ]
+        }
+    ]
+}

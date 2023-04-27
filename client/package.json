@@ -1,0 +1,24 @@
+{
+  "name": "client",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && pnpm run delete && pnpm run copy",
+    "preview": "vite preview",
+    "copy":"xcopy \"C:\\Users\\ofek1\\Downloads\\Year 2 - Study\\סמסטר ב\\NODE JS - שי\\שיעורים\\5\\Express\\client\\dist\" \"C:\\Users\\ofek1\\Downloads\\Year 2 - Study\\סמסטר ב\\NODE JS - שי\\שיעורים\\5\\Express\\dist\" /E",
+    "delete": "rd \"C:\\Users\\ofek1\\Downloads\\Year 2 - Study\\סמסטר ב\\NODE JS - שי\\שיעורים\\5\\Express\\dist\" /s /q"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.10.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^3.1.0",
+    "vite": "^4.2.0"
+  }
+}
